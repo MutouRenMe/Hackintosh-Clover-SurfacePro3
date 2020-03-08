@@ -27,5 +27,9 @@ Perfect! 除全球无解的内置WIFI蓝牙以外，其他基本正常，未深�
 * 摄像头工作正常
 * 系统里所有功能均正常使用，未深度体验。
 
+## 截图
+https://github.com/MutouRenMe/Hackintosh-Clover-SurfacePro3/blob/master/screenshot/QQ20200308-183515.png
+https://github.com/MutouRenMe/Hackintosh-Clover-SurfacePro3/blob/master/screenshot/QQ20200308-183536.png
+https://github.com/MutouRenMe/Hackintosh-Clover-SurfacePro3/blob/master/screenshot/QQ20200308-183633.png
 ## 感谢
 所有kext作者，以及EFI提供者hacker1024 (https://github.com/hacker1024/Hackintosh-Clover-SurfacePro3)
