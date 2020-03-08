@@ -28,4 +28,4 @@ Perfect! 除全球无解的内置WIFI蓝牙以外，其他基本正常，未深�
 * 系统里所有功能均正常使用，未深度体验。
 
 ## 感谢
-所有kext作者，以及EFI提供者hacker1024
+所有kext作者，以及EFI提供者hacker1024 (https://github.com/hacker1024/Hackintosh-Clover-SurfacePro3)
