@@ -1,4 +1,4 @@
-# surface-pro-3-hackintosh-10.14.x
+# surface-pro-3-hackintosh-10.14.x-完整EFI文件夹
 Perfect! 除全球无解的内置WIFI蓝牙以外，其他基本正常，未深入体验
 
 ## 配置信息
