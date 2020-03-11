@@ -1,0 +1,109 @@
+9:504  8:789  Found UEFI Acpi 2.0 RSDP at AA3F8000
+9:504  0:000  Saving ACPI tables from RSDP AA3F8000 to EFI\CLOVER\ACPI\origin ...
+9:504  0:000   AA3F8000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+9:520  0:015    (Xsdt: AA3F80A0, Rsdt: AA3F8028)
+9:520  0:000    AA3F80A0: 'XSDT', 'O E M C', Rev: 1, Len: 188 -> XSDT.aml
+9:529  0:008    AA3F8028: 'RSDT', 'O E M C', Rev: 1, Len: 112 -> RSDT.aml
+9:537  0:008    Tables in Xsdt: 19
+9:537  0:000    0. AA405328: 'FACP', 'O E M C', Rev: 5, Len: 268 -> FACP.aml
+9:545  0:007        (Dsdt: AA3F81E8, Facs: ABB4E080, XDsdt: AA3F81E8, XFacs: 0)
+9:545  0:000        AA3F81E8: 'DSDT', 'O E M C', Rev: 2, Len: 53563 -> DSDT.aml
+9:558  0:012        ABB4E080: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+9:568  0:009    1. AA405438: 'APIC', 'O E M C', Rev: 3, Len: 114 -> APIC.aml
+9:577  0:008    2. AA4054B0: 'FPDT', 'O E M C', Rev: 1, Len: 68 -> FPDT.aml
+9:587  0:009    3. AA4054F8: 'SSDT', 'SataTabl', Rev: 1, Len: 877 -> SSDT-0-SataTabl.aml
+9:602  0:015    4. AA405868: 'HPET', 'O E M C', Rev: 1, Len: 56 -> HPET.aml
+9:612  0:009    5. AA4058A0: 'MSDM', 'O E M C', Rev: 3, Len: 85 -> MSDM.aml
+9:623  0:010    6. AA4058F8: 'WDSA', 'ACTABL', Rev: 2, Len: 397 -> WDSA.aml
+9:633  0:010    7. AA405A88: 'LPIT', 'A M I', Rev: 1, Len: 148 -> LPIT.aml
+9:645  0:012    8. AA405B20: 'DBGP', 'O E M C', Rev: 1, Len: 52 -> DBGP.aml
+9:655  0:009    9. AA405B58: 'HPET', 'O E M C', Rev: 1, Len: 56 -> HPET.aml
+9:671  0:016    10. AA405B90: 'MCFG', 'O E M C', Rev: 1, Len: 60 -> MCFG.aml
+9:681  0:009    11. AA405BD0: 'SSDT', 'Ult0Rtd3', Rev: 1, Len: 1150 -> SSDT-1-Ult0Rtd3.aml
+9:691  0:009    12. AA406050: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52 -> TPM2.aml
+9:702  0:010    13. AA406088: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337 -> SSDT-2-Cpu0Ist.aml
+9:712  0:009    14. AA4065C8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776 -> SSDT-3-CpuPm.aml (Found hidden SSDT 4 pcs)
+9:722  0:009        * A8D07A98: 'B', '', Rev: 1, Len: 0  42 05 00 00 00 00 00 00 01 47 70 4C 00 00 00 00 
+9:722  0:000        * AA39B618: 'SSDT', 'ApIst', Rev: 1, Len: 1450  53 53 44 54 AA 05 00 00 01 CF 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x3_0-ApIst.aml
+9:735  0:013        * AA39BC18: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 979  53 53 44 54 D3 03 00 00 01 AF 50 6D 52 65 66 00 Internal length = 979 -> SSDT-x3_1-Cpu0Cst.aml
+9:745  0:010        * AA39AD98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EB 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x3_2-ApCst.aml
+9:755  0:010  
+9:755  0:000    15. AA4070A0: 'SSDT', 'SaSsdt', Rev: 1, Len: 13619 -> SSDT-4-SaSsdt.aml
+9:766  0:010    16. AA40A5D8: 'UEFI', 'O E M C', Rev: 1, Len: 66 -> UEFI.aml
+9:776  0:010    17. AA40A620: 'BGRT', 'O E M C', Rev: 1, Len: 56 -> BGRT.aml
+9:787  0:010    18. AA40A658: 'DMAR', 'HSW', Rev: 1, Len: 240 -> DMAR.aml
+9:797  0:009    Tables in Rsdt: 19
+9:797  0:000    0. AA3F8160: 'FACP', 'O E M C', Rev: 2, Len: 132 -> RSDT-FACP.aml
+9:807  0:009        (Dsdt: AA3F81E8, Facs: ABB4E040)
+9:807  0:000        AA3F81E8: 'DSDT', 'O E M C', Rev: 2, Len: 53563
+9:809  0:001        ABB4E040: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+9:822  0:013    1. AA405438: 'APIC', 'O E M C', Rev: 3, Len: 114
+9:822  0:000    2. AA4054B0: 'FPDT', 'O E M C', Rev: 1, Len: 68
+9:822  0:000    3. AA4054F8: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+9:822  0:000    4. AA405868: 'HPET', 'O E M C', Rev: 1, Len: 56
+9:822  0:000    5. AA4058A0: 'MSDM', 'O E M C', Rev: 3, Len: 85
+9:822  0:000    6. AA4058F8: 'WDSA', 'ACTABL', Rev: 2, Len: 397
+9:822  0:000    7. AA405A88: 'LPIT', 'A M I', Rev: 1, Len: 148
+9:822  0:000    8. AA405B20: 'DBGP', 'O E M C', Rev: 1, Len: 52
+9:822  0:000    9. AA405B58: 'HPET', 'O E M C', Rev: 1, Len: 56
+9:822  0:000    10. AA405B90: 'MCFG', 'O E M C', Rev: 1, Len: 60
+9:822  0:000    11. AA405BD0: 'SSDT', 'Ult0Rtd3', Rev: 1, Len: 1150
+9:822  0:000    12. AA406050: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+9:822  0:000    13. AA406088: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+9:822  0:000    14. AA4065C8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+9:822  0:000    15. AA4070A0: 'SSDT', 'SaSsdt', Rev: 1, Len: 13619
+9:822  0:000    16. AA40A5D8: 'UEFI', 'O E M C', Rev: 1, Len: 66
+9:822  0:000    17. AA40A620: 'BGRT', 'O E M C', Rev: 1, Len: 56
+9:822  0:000    18. AA40A658: 'DMAR', 'HSW', Rev: 1, Len: 240
+9:822  0:000  Found UEFI Acpi 1.0 RSDP at AA3F8000
+9:822  0:000  Printing ACPI tables from RSDP AA3F8000 ...
+9:822  0:000   AA3F8000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+9:822  0:000    (Xsdt: AA3F80A0, Rsdt: AA3F8028)
+9:822  0:000    AA3F80A0: 'XSDT', 'O E M C', Rev: 1, Len: 188
+9:822  0:000    AA3F8028: 'RSDT', 'O E M C', Rev: 1, Len: 112
+9:822  0:000    Tables in Xsdt: 19
+9:822  0:000    0. AA405328: 'FACP', 'O E M C', Rev: 5, Len: 268
+9:822  0:000        (Dsdt: AA3F81E8, Facs: ABB4E080, XDsdt: AA3F81E8, XFacs: 0)
+9:822  0:000        AA3F81E8: 'DSDT', 'O E M C', Rev: 2, Len: 53563
+9:823  0:001        ABB4E080: 'FACS', Ver: 2, Len: 64
+9:823  0:000    1. AA405438: 'APIC', 'O E M C', Rev: 3, Len: 114
+9:823  0:000    2. AA4054B0: 'FPDT', 'O E M C', Rev: 1, Len: 68
+9:823  0:000    3. AA4054F8: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+9:823  0:000    4. AA405868: 'HPET', 'O E M C', Rev: 1, Len: 56
+9:823  0:000    5. AA4058A0: 'MSDM', 'O E M C', Rev: 3, Len: 85
+9:823  0:000    6. AA4058F8: 'WDSA', 'ACTABL', Rev: 2, Len: 397
+9:823  0:000    7. AA405A88: 'LPIT', 'A M I', Rev: 1, Len: 148
+9:823  0:000    8. AA405B20: 'DBGP', 'O E M C', Rev: 1, Len: 52
+9:823  0:000    9. AA405B58: 'HPET', 'O E M C', Rev: 1, Len: 56
+9:823  0:000    10. AA405B90: 'MCFG', 'O E M C', Rev: 1, Len: 60
+9:823  0:000    11. AA405BD0: 'SSDT', 'Ult0Rtd3', Rev: 1, Len: 1150
+9:823  0:000    12. AA406050: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+9:823  0:000    13. AA406088: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+9:823  0:000    14. AA4065C8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+9:823  0:000    15. AA4070A0: 'SSDT', 'SaSsdt', Rev: 1, Len: 13619
+9:823  0:000    16. AA40A5D8: 'UEFI', 'O E M C', Rev: 1, Len: 66
+9:823  0:000    17. AA40A620: 'BGRT', 'O E M C', Rev: 1, Len: 56
+9:823  0:000    18. AA40A658: 'DMAR', 'HSW', Rev: 1, Len: 240
+9:823  0:000    Tables in Rsdt: 19
+9:823  0:000    0. AA3F8160: 'FACP', 'O E M C', Rev: 2, Len: 132
+9:823  0:000        (Dsdt: AA3F81E8, Facs: ABB4E040)
+9:823  0:000        AA3F81E8: 'DSDT', 'O E M C', Rev: 2, Len: 53563
+9:825  0:001        ABB4E040: 'FACS', Ver: 0, Len: 64
+9:825  0:000    1. AA405438: 'APIC', 'O E M C', Rev: 3, Len: 114
+9:825  0:000    2. AA4054B0: 'FPDT', 'O E M C', Rev: 1, Len: 68
+9:825  0:000    3. AA4054F8: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+9:825  0:000    4. AA405868: 'HPET', 'O E M C', Rev: 1, Len: 56
+9:825  0:000    5. AA4058A0: 'MSDM', 'O E M C', Rev: 3, Len: 85
+9:825  0:000    6. AA4058F8: 'WDSA', 'ACTABL', Rev: 2, Len: 397
+9:825  0:000    7. AA405A88: 'LPIT', 'A M I', Rev: 1, Len: 148
+9:825  0:000    8. AA405B20: 'DBGP', 'O E M C', Rev: 1, Len: 52
+9:825  0:000    9. AA405B58: 'HPET', 'O E M C', Rev: 1, Len: 56
+9:825  0:000    10. AA405B90: 'MCFG', 'O E M C', Rev: 1, Len: 60
+9:825  0:000    11. AA405BD0: 'SSDT', 'Ult0Rtd3', Rev: 1, Len: 1150
+9:825  0:000    12. AA406050: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+9:825  0:000    13. AA406088: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+9:825  0:000    14. AA4065C8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+9:825  0:000    15. AA4070A0: 'SSDT', 'SaSsdt', Rev: 1, Len: 13619
+9:825  0:000    16. AA40A5D8: 'UEFI', 'O E M C', Rev: 1, Len: 66
+9:825  0:000    17. AA40A620: 'BGRT', 'O E M C', Rev: 1, Len: 56
+9:825  0:000    18. AA40A658: 'DMAR', 'HSW', Rev: 1, Len: 240
