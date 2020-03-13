@@ -1,5 +1,7 @@
 # surface-pro-3-hackintosh-10.14.x
 Perfect! 除全球无解的内置WIFI蓝牙以外，其他基本正常，未深入体验
+建议全新安装10.14.6
+极小概率会多重启一次才进入系统
 
 ## 配置信息
 * 机型：Surface Pro3
